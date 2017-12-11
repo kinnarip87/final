@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Kinnari Prajapati - Resume Website</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900" rel="stylesheet">
+	 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body> 
+	<div class="navbar navbar-fixed-top navbar-inverse">
+
+		<!-- Start of Navbar Container -->
+		<div class="container">
+
+			<!-- Start of Navbar Brand -->
+			<div class="navbar-brand">
+				Kinnari Prajapati
+			</div>
+			<!-- End of Navbar Brand -->
+
+			<!-- Start of Navlist -->
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!-- End of Navlist -->
+
+		</div>
+		<!-- End of Navbar Container -->
+
+	</div>
+	<!-- End of NavBar -->
+
+	<!-- Start of Jumbotron -->
+	<div id="home" class="jumbotron">
+    <div class="background"></div>
+	  <div class="name col-sm-8 col-md-12 text-center">
+		  <h1 class="text-center">Kinnari Prajapati</h1>
+		  <h4 class="text-center">Visual Designer | UX/UI Designer</h4>
+		</div>
+	</div>
+	<!-- End of Jumbotron -->
+
+	<!-- Start of Container-fluid -->
+	<div id="about" class="container-fluid aboutme">
+		<h2 class="container about-title">About Me</h2>
+		<!-- Start of Container -->
+		<div class="container">
+
+					<div class="about-text">
+						<p>I am an aspiring Graphic designer from Los Angeles, California. I was born and raised in India. I like dancing, diying, and watching movies in my free time. I am a very huge fan of bollywood movies. I am really intereasted in I have a associates degree in Studio Arts and currently enrolled in CSUN for bachlors in Art concentration in Graphic Design. I am proficient in Adobe Illustrator, Photohop, InDesign, and XD. I also have a knowledge in HTML/CSS, SCSS, PHP, and Wordpress.</p>
+					</div>
+					<div class="col-sm-1"></div>
+				<!-- </div> -->
+			
+		</div>
+		<!-- End of Container -->
+	</div>
+	<!-- End of Container-fluid -->
+		
+		<!-- Start of Work Continer -->
+		<div id="portfolio" class="container-fluid portfolio">
+			
+			<div class="container">
+			<h2 class="portfolio-title">PORTFOLIO</h2>
+
+   <ul class="nav nav-pills nav-stacked images">
+    <li><a href="#lightbox" data-toggle="modal"><img src="images/work1.jpg" alt="Work 1" class="img-rounded image1"></a></li>
+    <li><a href="#lightbox" data-toggle="modal" data-slide-to="1"><img src="images/work2.jpg" alt="Work 2" class="img-rounded image2"></a></li>
+    <li><a href="#lightbox" data-toggle="modal" data-slide-to="2"><img src="images/work3.jpg" alt="work 3" class="img-rounded image3"></a></li>  </ul>
+  
+  <div class="modal fade and carousel slide" id="lightbox">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <ol class="carousel-indicators">
+            <li data-target="#lightbox" data-slide-to="0" class="active"></li>
+            <li data-target="#lightbox" data-slide-to="1"></li>
+            <li data-target="#lightbox" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/truism.jpg" alt="First slide">
+            </div>
+            <div class="item">
+              <img src="images/npr.jpg" alt="Second slide">
+            </div>
+            <div class="item">
+              <img src="images/20thcentury.jpg" alt="Third slide">
+              <div class="carousel-caption"></div>
+            </div>
+          </div><!-- /.carousel-inner -->
+          <a class="left carousel-control" href="#lightbox" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#lightbox" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</div><!-- /.container -->
+		
+		</div>
+		<!-- End of Container-fluid -->
+
+		<!-- Start of Carousel -->
+		<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="container-fluid quotes">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/quote1.jpg" alt="Quote 1" class="center-block">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/quotes2.jpg" alt="Quote 2" class="center-block">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/quotes3.jpg" alt="Quote 3" class="center-block">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- End of Carousel -->
+
+		<!-- Start of Container-fluid form -->
+		<div class="container-fluid form">
+
+		<section id="contact" class="content-section text-center">
+        <div class="contact-section">
+            <div class="container">
+              <h2>Contact Me</h2>
+              <p>Feel free to shout me by filling the contact form or visiting my social network sites like Facebook and Instagram.</p>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText">Your Message</label>
+                     <textarea  class="form-control" placeholder="Your Message goes Here"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-default">Send Message</button>
+                  </form>
+
+                  <hr>
+                    <h3>Our Social Sites</h3>
+                  <ul class="list-inline banner-social-buttons">
+                    <li><a href="https://www.instagram.com/kinnurani/" target="blank" class="btn btn-default btn-lg"><i class="fa fa-instagram"> <span class="network-name">Instagram</span></i></a></li>
+                    <li><a href="https://www.facebook.com/kinnari.prajapati.7" target="blank" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+		</div>
+		<!-- End of Container-fluid form -->
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+    // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+  </script>
+</body>
+</html>
